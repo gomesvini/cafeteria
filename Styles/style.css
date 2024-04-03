@@ -39,7 +39,8 @@
 
 .banner,
 .images,
-.contacts {
+.contacts,
+.schedules {
     position: relative;
     background-size: cover;
     background-attachment: fixed;
@@ -121,7 +122,7 @@
     position: relative;
 }
 
-.contacts h3{
+.contacts h3 {
     position: relative;
     width: 500px;
     padding: 10px;
@@ -167,4 +168,101 @@
     font-family: Oswald, sans-serif;
     font-size: 16px;
     text-shadow: 2px 4px 3px #000;
+}
+
+.schedules {
+    background-image: url(/Assets/cafeteria.jpg);
+    background-position: top center;
+    height: 85vh;
+}
+
+.schedules h3 {
+    position: absolute;
+    margin: 0 auto;
+    top: 15%;
+    right: 0;
+    left: 0;
+    color: #fff;
+    letter-spacing: 6px;
+    font-size: 18px;
+    text-align: center;
+    font-family: Oswald, sans-serif;
+}
+
+.list {
+    position: absolute;
+    width: 768px;
+    top: 35%;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    list-style: none;
+    font-family: Oswald, sans-serif;
+}
+
+.schedules li {
+    position: relative;
+}
+
+.schedules li h4 {
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.list li div {
+    width: 70%;
+    height: 1px;
+    position: absolute;
+    margin: 0 auto;
+    top: 50%;
+    right: 0;
+    left: 0;
+    background-color: #ACACAC;
+}
+
+.list span,
+.list p {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-weight: 700;
+    font-family: Oswald, sans-serif;
+}
+
+ul span {
+    color: #c4a47c;
+}
+
+ul p {
+    color: #fff;
+}
+
+.footer {
+    background-color: #000;
+    padding: 20px 0;
+    position: relative;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    font-family: Lato, sans-serif;
+    font-weight: 600;
+    line-height: 1.5rem;
+    letter-spacing: 0.1rem;
+}
+
+.copyright {
+    width: 12px;
+    margin: 0 0.3rem;
+}
+
+.footer a {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    right: 50px;
+    bottom: 60px;
+}
+
+.footer span {
+    color: #c4a47c;
 }
