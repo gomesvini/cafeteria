@@ -38,7 +38,8 @@
 }
 
 .banner,
-.images {
+.images,
+.contacts {
     position: relative;
     background-size: cover;
     background-attachment: fixed;
@@ -111,4 +112,59 @@
     font-family: Fraunces, sans-serif;
     font-size: 24px;
     font-style: italic;
+}
+
+.contacts {
+    background-image: url(/Assets/parallax-imagem4.png);
+    height: 130vh;
+    text-align: center;
+    position: relative;
+}
+
+.contacts h3{
+    position: relative;
+    width: 500px;
+    padding: 10px;
+    top: 10%;
+    right: 0;
+    left: 0;
+    text-align: center;
+    margin: auto;
+
+    border: 1px solid #604829;
+    background-color: #604829;
+    color: #fff;
+    letter-spacing: 3px;
+
+    font-family: Oswald, sans-serif;
+    font-size: 24px;
+}
+
+.contacts iframe {
+    position: relative;
+    width: 1024px;
+    height: 450px;
+    top: 18%;
+    right: 0;
+    left: 0;
+    border-radius: 10px;
+}
+
+.contacts .personal-contacts {
+    position: absolute;
+    width: 500px;
+    padding: 10px;
+    bottom: 3%;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    line-height: 2rem;
+
+    border: 1px solid #604829;
+    background-color: #604829;
+
+    color: #fff;
+    font-family: Oswald, sans-serif;
+    font-size: 16px;
+    text-shadow: 2px 4px 3px #000;
 }
